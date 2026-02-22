@@ -45,6 +45,7 @@ telegraph account revoke          # revoke current token
 telegraph post <file>             # post a file
 telegraph post -                  # post from stdin
 telegraph edit <path> <file>      # update an existing page
+telegraph view <path>             # display a page in the terminal
 telegraph list                    # list all your pages
 ```
 
@@ -116,6 +117,14 @@ The `path` is the last segment of the page URL (e.g. `My-Article-01-01`):
 telegraph edit My-Article-01-01 article.md
 telegraph edit My-Article-01-01 - --title "Updated Title"
 ```
+
+### View a page
+
+```bash
+telegraph view My-Post-02-22
+```
+
+Renders the page content in the terminal with basic formatting — headings, bold, italic, links, code blocks, lists.
 
 ### List pages
 

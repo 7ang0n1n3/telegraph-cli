@@ -8,6 +8,7 @@ from telegraph.commands.account import account_cmd
 from telegraph.commands.post import post_cmd
 from telegraph.commands.edit import edit_cmd
 from telegraph.commands.list_ import list_cmd
+from telegraph.commands.view import view_cmd
 
 
 @click.group()
@@ -20,3 +21,4 @@ main.add_command(account_cmd)
 main.add_command(post_cmd)
 main.add_command(edit_cmd)
 main.add_command(list_cmd)
+main.add_command(view_cmd)

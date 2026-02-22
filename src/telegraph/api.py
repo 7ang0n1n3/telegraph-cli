@@ -103,6 +103,13 @@ def edit_page(
     })
 
 
+def get_page(path: str, return_content: bool = True) -> dict[str, Any]:
+    return _get("getPage", {
+        "path": path,
+        "return_content": return_content,
+    })
+
+
 def get_page_list(token: str, offset: int = 0, limit: int = 50) -> dict[str, Any]:
     return _get("getPageList", {
         "access_token": token,
