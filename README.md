@@ -7,6 +7,7 @@ A command-line tool to publish content to [telegra.ph](https://telegra.ph) from 
 - Post Markdown or HTML files (auto-detected by extension)
 - Read from stdin with `-`
 - YAML frontmatter support for title and author
+- View pages rendered in the terminal
 - Edit existing pages
 - List all pages on your account
 - Account management (create, inspect, revoke token)
