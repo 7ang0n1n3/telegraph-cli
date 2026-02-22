@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "telegraph"
+name = "telegraph-cli"
 version = "0.1.0"
 description = "CLI tool to post content to telegra.ph"
 requires-python = ">=3.10"

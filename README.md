@@ -1,4 +1,4 @@
-# telegraph
+# telegraph-cli
 
 A command-line tool to publish content to [telegra.ph](https://telegra.ph) from your terminal.
 
